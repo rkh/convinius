@@ -76,8 +76,8 @@ Example:
 
 If block takes an argument, it won't use `instance_eval`:
 
-  Convinius::ASM.new do |g|
-    g.push 1
-    g.push 2
-    g.send :+, 1
-  end
+    Convinius::ASM.new do |g|
+      g.push 1
+      g.push 2
+      g.send :+, 1
+    end
