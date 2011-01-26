@@ -45,6 +45,12 @@ A more realistic example:
       include Awesome
     end
 
+Import constants from Rubinius
+------------------------------
+in: `convinius/globals`
+
+Defines global constants `Tuple` and `Fiber`.
+
 Convenience for Rubinius::Generator
 -----------------------------------
 in: `convinius/generator`
