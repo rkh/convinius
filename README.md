@@ -45,6 +45,17 @@ A more realistic example:
       include Awesome
     end
 
+Creating own subclass of Class
+------------------------------
+in: `convinius/subclass_class`
+
+    class MyClass < Class
+    end
+
+    Foo = MyClass.new Bar
+    Foo.new.class # => Foo
+    Foo.class     # => MyClass (without patch this would be Class)
+
 Import constants from Rubinius
 ------------------------------
 in: `convinius/globals`
